@@ -20,7 +20,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://telegra.ph/file/654ddaf472f18b799600b.jpg", caption=f"» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [DevilBotz]({https://t.me/DevilBotz_Official}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [DevilBotz]({https://t.me/DevilBotz_Official}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ !",
+                    photo="https://te.legra.ph/file/4b62671afb697b5c46b29.jpg", caption=f"» ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [DevilBotz]({https://t.me/DevilBotz_Official}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [DevilBotz]({https://t.me/DevilBotz_Official}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ !",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
